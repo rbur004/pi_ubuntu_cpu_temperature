@@ -1,0 +1,2 @@
+#!/bin/bash
+bc  <<< "scale=2; $(/bin/cat  /sys/class/thermal/thermal_zone0/temp) / 1000.0"
